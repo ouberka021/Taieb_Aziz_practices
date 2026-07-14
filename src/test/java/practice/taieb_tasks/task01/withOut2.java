@@ -7,7 +7,7 @@ public class withOut2 {
     public static String without2(String str) {
         String firstTwo = str.substring(0,2);
         String lastTwo = str.substring(str.length()-2);
-        String result = "";
+        String result;
         if (firstTwo.equals(lastTwo)){
             result = str.substring(2);
         }else {
