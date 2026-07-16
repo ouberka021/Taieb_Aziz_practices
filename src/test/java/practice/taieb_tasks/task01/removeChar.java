@@ -1,9 +1,6 @@
 package practice.taieb_tasks.task01;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-
 public class removeChar {
     public static void main(String[] args) {
 

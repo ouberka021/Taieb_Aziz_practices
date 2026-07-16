@@ -9,19 +9,13 @@ public class withOut2 {
     }
     public static String without2(String str) {
 
-        ArrayList<String> list = new ArrayList<>
-                (Arrays.asList("Ahmed", "Amana","Rar"));
-
-
-
-
-
-
-
         String result;
-        if (str.substring(0,2).equals(str.substring(str.length()-2)) && str.length() > 1  ){
+        if (str.length() > 1){
+        if (str.substring(0,2).equals(str.substring(str.length()-2))){
             result = str.substring(2);
         }else{
+            result = str;
+        }}else {
             result = str;
         }
 
