@@ -13,6 +13,7 @@ public class removeChar {
 				["Canada", "Lan", "Ebrahim", "Farida"]
 			Example:
 			*/
+
         ArrayList<String> list = new ArrayList<>
                 (Arrays.asList("Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"));
        // Solution using lambda expression
