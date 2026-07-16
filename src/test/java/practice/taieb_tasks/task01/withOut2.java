@@ -1,8 +1,5 @@
 package practice.taieb_tasks.task01;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class withOut2 {
     public static void main(String[] args) {
         System.out.println(without2("x"));
