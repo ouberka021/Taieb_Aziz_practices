@@ -1,16 +1,27 @@
 package practice.taieb_tasks.task01;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class withOut2 {
     public static void main(String[] args) {
-        System.out.println(without2("HelloHe"));
+        System.out.println(without2("x"));
     }
     public static String without2(String str) {
-        String firstTwo = str.substring(0,2);
-        String lastTwo = str.substring(str.length()-2);
+
+        ArrayList<String> list = new ArrayList<>
+                (Arrays.asList("Ahmed", "Amana","Rar"));
+
+
+
+
+
+
+
         String result;
-        if (firstTwo.equals(lastTwo)){
+        if (str.substring(0,2).equals(str.substring(str.length()-2)) && str.length() > 1  ){
             result = str.substring(2);
-        }else {
+        }else{
             result = str;
         }
 
